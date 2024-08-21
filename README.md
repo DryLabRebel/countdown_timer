@@ -13,7 +13,7 @@ The countdown will run for 5 minutes if no argument is supplied.
 
 Dependencies:
 
-    - `sleep`
-    - `printf`
-    - `say`
+- `sleep`
+- `printf`
+- `say`
 
