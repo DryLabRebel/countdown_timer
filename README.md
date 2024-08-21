@@ -11,4 +11,9 @@ This program takes a single integer as an unnamed argument, as input to designat
 
 The countdown will run for 5 minutes if no argument is supplied.
 
+Dependencies:
+
+    - `sleep`
+    - `printf`
+    - `say`
 
