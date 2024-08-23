@@ -3,11 +3,6 @@
 time="${1:-5}"
 scale="${2:-m}"
 
-echo $time
-echo $scale
-
-echo $seconds
-
 if [[ "$scale" == "s" ]]
 then
     seconds="$time"
@@ -25,5 +20,7 @@ fi
 printf "\nWelcome to the countdown timer.\n"
 printf "The countdown will run for 5 minutes if no argument is supplied.\n"
 printf "\nCountdown timer set for $time$scale.\n\n"
+
 sleep "$seconds" && say "times up"
+
 printf "\n\nCountdown complete.\n"
