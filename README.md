@@ -4,6 +4,7 @@ Countdown Timer
 A *very* simple countdown timer.
 
 > TODO: Add flags to used as named arguments
+> TODO: Create an alarm clock!
 
 Welcome to the countdown timer.
 
