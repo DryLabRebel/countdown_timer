@@ -16,6 +16,7 @@ parser = argparse.ArgumentParser()
 # Designate the scale of the supplied units
 parser.add_argument(
     "--scale",
+    type = str,
     default = 'm'
     )
 # Designate the length of time (in scale)
